@@ -1,4 +1,4 @@
-//go:build !duckdb_use_lib && (darwin || (linux && (amd64 || arm64)) || (freebsd && amd64))
+//go:build !duckdb_use_lib && (darwin || (linux && (amd64 || arm64)) || (freebsd && amd64)) && !alpine
 
 package duckdb
 
