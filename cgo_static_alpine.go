@@ -4,7 +4,7 @@ package duckdb
 
 /*
 #cgo LDFLAGS: -lduckdb
-#cgo LDFLAGS: -lstdc++ -lm -ldl -L${SRCDIR}/deps/alpine_arm64
+#cgo LDFLAGS: -lstdc++ -lm -ldl -L${SRCDIR}/deps/alpine_amd64
 #include <duckdb.h>
 */
 import "C"
